@@ -1,0 +1,50 @@
+{
+  "generation": {
+    "fid_score": 15.743699073791504,
+    "sample_diversity": 0.43290236592292786,
+    "reconstruction_mse": 0.08913179188966751,
+    "num_samples": 500,
+    "k_sampling": 25
+  },
+  "denoising": {
+    "corruption_0.1": {
+      "psnr_mean": 20.160049018859862,
+      "psnr_std": 0.657962179303351,
+      "ssim_mean": 0.047720395373180506,
+      "ssim_std": 0.01690974404355508,
+      "mse": 0.08839407563209534
+    },
+    "corruption_0.3": {
+      "psnr_mean": 20.16000328063965,
+      "psnr_std": 0.6579398050229349,
+      "ssim_mean": 0.04771983201615512,
+      "ssim_std": 0.016910720236164235,
+      "mse": 0.08839473128318787
+    },
+    "corruption_0.5": {
+      "psnr_mean": 20.15997890472412,
+      "psnr_std": 0.6579476737286979,
+      "ssim_mean": 0.04772195342928171,
+      "ssim_std": 0.016903610956700173,
+      "mse": 0.08839532732963562
+    }
+  },
+  "associative_recall": {
+    "recall_accuracies": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "corruption_levels": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "mean_recall_accuracy": 1.0
+  },
+  "evaluation_time": 16.073610067367554
+}

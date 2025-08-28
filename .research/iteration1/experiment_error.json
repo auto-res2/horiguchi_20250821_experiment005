@@ -1,0 +1,42 @@
+{
+  "experiment_completed": false,
+  "error": "Expecting image as torch.Tensor with dtype=torch.uint8",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/ubuntu/repos/horiguchi_20250821_experiment005/src/main.py\", line 177, in run_experiment\n    evaluation_results = evaluate_mushrbm(best_model_path, config)\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ubuntu/repos/horiguchi_20250821_experiment005/src/evaluate.py\", line 358, in evaluate_mushrbm\n    gen_results = evaluator.evaluate_generation(\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ubuntu/repos/horiguchi_20250821_experiment005/src/evaluate.py\", line 64, in evaluate_generation\n    self.fid_metric.update(generated_images, real=False)\n  File \"/home/ubuntu/.pyenv/versions/3.12.7/lib/python3.12/site-packages/torchmetrics/metric.py\", line 549, in wrapped_func\n    update(*args, **kwargs)\n  File \"/home/ubuntu/.pyenv/versions/3.12.7/lib/python3.12/site-packages/torchmetrics/image/fid.py\", line 394, in update\n    features = self.inception(imgs)\n               ^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ubuntu/.pyenv/versions/3.12.7/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1773, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ubuntu/.pyenv/versions/3.12.7/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1784, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ubuntu/.pyenv/versions/3.12.7/lib/python3.12/site-packages/torchmetrics/image/fid.py\", line 170, in forward\n    out = self._torch_fidelity_forward(x)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/ubuntu/.pyenv/versions/3.12.7/lib/python3.12/site-packages/torchmetrics/image/fid.py\", line 83, in _torch_fidelity_forward\n    vassert(torch.is_tensor(x) and x.dtype == torch.uint8, \"Expecting image as torch.Tensor with dtype=torch.uint8\")\n  File \"/home/ubuntu/.pyenv/versions/3.12.7/lib/python3.12/site-packages/torch_fidelity/helpers.py\", line 9, in vassert\n    raise ValueError(message)\nValueError: Expecting image as torch.Tensor with dtype=torch.uint8\n",
+  "config": {
+    "dataset": "mnist",
+    "data_dir": "./data",
+    "input_shape": [
+      1,
+      28,
+      28
+    ],
+    "hidden_per_scale": 48,
+    "scales": 3,
+    "attention_dim": 32,
+    "wavelet": "haar",
+    "batch_size": 64,
+    "num_epochs": 15,
+    "learning_rate": 0.003,
+    "beta1": 0.5,
+    "beta2": 0.99,
+    "num_train": 5000,
+    "num_test": 1000,
+    "num_gen_samples": 500,
+    "num_denoise_images": 200,
+    "num_recall_patterns": 100,
+    "save_dir": "./models",
+    "plot_dir": "./.research/iteration1/images",
+    "log_dir": "./.research/iteration1",
+    "seed": 42,
+    "max_k": 8,
+    "evaluate_generation": true,
+    "evaluate_denoising": true,
+    "evaluate_recall": true,
+    "generate_plots": true
+  },
+  "device_info": {
+    "device": "cpu",
+    "cuda_available": false
+  },
+  "status_enum": "stopped"
+}

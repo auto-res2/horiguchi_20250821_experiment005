@@ -1,0 +1,36 @@
+
+dataset:
+  name: "mnist"
+  data_dir: "./data"
+  num_train: 5000  # Reduced for quick testing
+  num_test: 1000
+  batch_size: 64
+
+model:
+  input_shape: [1, 28, 28]
+  hidden_per_scale: 48
+  scales: 3
+  attention_dim: 32
+  wavelet: "haar"
+
+training:
+  num_epochs: 15
+  learning_rate: 0.003
+  beta1: 0.5
+  beta2: 0.99
+  max_k: 8
+  seed: 42
+
+evaluation:
+  num_gen_samples: 500
+  num_denoise_images: 200
+  num_recall_patterns: 100
+  evaluate_generation: true
+  evaluate_denoising: true
+  evaluate_recall: true
+  generate_plots: true
+
+directories:
+  save_dir: "./models"
+  plot_dir: "./.research/iteration1/images"
+  log_dir: "./.research/iteration1"
