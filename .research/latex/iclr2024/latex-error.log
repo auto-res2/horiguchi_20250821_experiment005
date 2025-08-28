@@ -266,363 +266,95 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 1 undefined
+ on input line 63.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 ... that needs twenty-five steps for FID\,≈
-                                                  \,19—yet still achieves ...
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.55 ...ood estimates and sample quality [decelle_
-                                                  2021_equilibrium]. Despite...
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 1 undefined on 
+input line 65.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56 
-     
-
-Underfull \hbox (badness 1902) in paragraph at lines 55--56
-\T1/ptm/m/n/10 (+20) based learn-ing, yet three long-standing lim-i-ta-tions cu
-rb their rel-e-vance to con-tem-po-rary
-
-Overfull \hbox (127.53072pt too wide) in paragraph at lines 55--56
-\T1/ptm/m/n/10 (-20) [decelle$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 quilibriu
-m\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Despiteyearsofresearchthereisstillnopublicl
-yavailableRBMthatadapts$\T1/ptm/m/n/10 (-20) k$\OML/cmm/m/it/10 fromfirstprinci
-ples:$ 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 ...hted by recent spectral analyses [bachtis_
-                                                  2024_cascade]. By embeddin...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 
-     
-
-Underfull \hbox (badness 2469) in paragraph at lines 57--58
-[]\T1/ptm/m/n/10 (+20) We pro-pose the Multi-Scale Uni-tary Spec-tral Hop-field
- RBM (MU-SH-RBM), an ar-chi-
-
-Underfull \hbox (badness 3895) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) tec-ture that closes all three gaps on the canon-i-cal MNI
-ST bench-mark while adding
-
-Underfull \hbox (badness 3907) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) only min-i-mal code over-head. Our core hy-poth-e-sis is t
-hat an un-dec-i-mated wavelet
-
-Underfull \hbox (badness 1424) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) packet ba-sis can re-tain the ex-act spec-tral tricks of b
-lock-circulant RBMs while pre-serv-
-
-Underfull \hbox (badness 4254) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) ing neigh-bour-hood in-for-ma-tion, and that main-tain-ing
- ex-act uni-tary weight con-straints
-
-Underfull \hbox (badness 2980) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) averts the cas-cade of singular-value ex-plo-sions high-li
-ghted by re-cent spec-tral anal-y-ses
-
-Overfull \hbox (350.24254pt too wide) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (-20) [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT
-1/cmr/m/n/10 ]\OML/cmm/m/it/10 :ByembeddingalightweightattentionheadinsidetheHa
-miltonianandtrackingcriticalitythroughtheinstantaneousgrowthrateofthespectralno
-rm; MU \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (111.78207pt too wide) in paragraph at lines 57--58
-\OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMrecoversone \OMS/c
-msy/m/n/10 ^^@ \OML/cmm/m/it/10 passHopfieldrecallandanadaptiveGibbsbudgetwitho
-utcompromisinghardwareefficiency:$ 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 ... break down as learning proceeds [decelle_
-                                                  2021_equilibrium].
 
-! LaTeX Error: Command \end{itemize} invalid in math mode.
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 1 undefined
+ on input line 71.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 \end{itemize}
-                  
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 ...nd bound singular values exactly [bachtis_
-                                                  2024_cascade].
 
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item
-               \textbf{Differentiable Criticality Tracker} Online schedule $...
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 2 undefined on 
+input line 77.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item \textbf
-                      {Differentiable Criticality Tracker} Online schedule $...
+LaTeX Warning: Reference `sec:related' on page 2 undefined on input line 84.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item \textbf
-                      {Differentiable Criticality Tracker} Online schedule $...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 ...lity Tracker} Online schedule $k(t)=\lceil
-                                                  \alpha\,\tau(t)\rceil$ tra...
+LaTeX Warning: Reference `sec:background' on page 2 undefined on input line 84.
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 69--71
-[]\T1/ptm/b/n/10 (+20) Strict Complex-Unitary Train-ing \T1/ptm/m/n/10 (+20) Ho
-use-holder stacks with Riemannian-Adam
 
-Underfull \hbox (badness 3009) in paragraph at lines 69--71
-\T1/ptm/m/n/10 (+20) dou-ble ca-pac-ity over real-orthogonal RBMs and bound sin
--gu-lar val-ues ex-actly
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-\T1/ptm/m/n/10 (+20) [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT
-1/cmr/m/n/10 ]\OML/cmm/m/it/10 :[]Onlineschedule$\T1/ptm/m/n/10 (+20) k(t)=$\OM
-S/cmsy/m/n/10 d\OML/cmm/m/it/10  ^^\\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cm
-r/m/n/10 )\OMS/cmsy/m/n/10 e$
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 ...ions therefore blur fine details [bachtis_
-                                                  2024_cascade]. MU-SH-RBM p...
+LaTeX Warning: Reference `sec:method' on page 2 undefined on input line 84.
 
 
-! LaTeX Error: \mathcal allowed only in math mode.
+LaTeX Warning: Reference `sec:experimental' on page 2 undefined on input line 8
+4.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...al alignment without sacrificing $\mathcal
-                                                   O(N\log N)$ complexity.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 ...ment without sacrificing $\mathcal O(N\log
-                                                   N)$ complexity.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/it/10 (+20) Spectral RBMs \T1/ptm/m/n/10 (+20) Block-circulant con-vo
--lu-tional RBMs di-ag-o-nalise con-vo-lu-tion ker-
+LaTeX Warning: Reference `sec:results' on page 2 undefined on input line 84.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/n/10 (+20) nels with the FFT, en-abling ex-act positive-phase sam-pli
-ng but dis-card-ing lo-cal-
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/n/10 (+20) ity; one-step re-con-struc-tions there-fore blur fine de-t
-ails [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT1/cmr/m/n/10 ]\O
-ML/cmm/m/it/10 :MU \OMS/cmsy/m/n/10 ^^@
+LaTeX Warning: Reference `sec:conclusion' on page 2 undefined on input line 84.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMpreservesdiagonali
-sationyetconfinesittoundecimatedwaveletsub \OMS/cmsy/m/n/10 ^^@
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...jections onto the Stiefel manifold [smart_
-                                                  2021_the]. In practice the...
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...imisation, empirically stabilising $\sigma
-                                                  _{\max}$ across the cascad...
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...of phase transitions reported in [bachtis_
-                                                  2024_cascade].
-! Missing $ inserted.
-<inserted text> 
-                $
-l.83 
-     
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 2 undefined on 
+input line 88.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-[]\T1/ptm/m/it/10 (+20) Hopfield^^URBM Con-nec-tions \T1/ptm/m/n/10 (+20) Ex-ac
-t map-pings be-tween Hop-field net-works and RBMs
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\T1/ptm/m/n/10 (+20) mo-ti-vate or-thog-o-nal weight ini-tialis-ers and oc-ca-s
-ional pro-jec-tions onto the Stiefel
+Package natbib Warning: Citation `smart_2021_the' on page 2 undefined on input 
+line 90.
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\T1/ptm/m/n/10 (+20) man-i-fold [smart$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 
-he\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Inpracticetheconstraintissoonviolated; era
-singthefixed \OMS/cmsy/m/n/10 ^^@
 
-Overfull \hbox (220.85054pt too wide) in paragraph at lines 82--83
-\OML/cmm/m/it/10 pointguarantee:MU \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 SH \OM
-S/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMmaintainsunitaryconstraintsthroughouttrai
-ningviaRiemannianoptimisation; empiricallystabilising$$^^[[]$
-! Missing $ inserted.
-<inserted text> 
-                $
-l.84 ...d calling for adaptive schedules [decelle_
-                                                  2021_equilibrium]. Their s...
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 2 undefined on 
+input line 90.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.85 
-     
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-[]\T1/ptm/m/it/10 (+20) Mixing-Time Adap-ta-tion \T1/ptm/m/n/10 (+20) De-cellee
-tal. quan-ti-fied the widen-ing gap be-
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 2 undefined
+ on input line 92.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) tween cho-sen $\OML/cmm/m/it/10 k$ \T1/ptm/m/n/10 (+20) an
-d true mix-ing time dur-ing train-ing, iso-lat-ing two
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) regimes^^Vequilibrium and out-of-equilibrium^^Vand call-in
-g for adap-tive sched-ules
+Package natbib Warning: Citation `taniguchi_2023_end' on page 2 undefined on in
+put line 96.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) [decelle$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 quilibriu
-m\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Theirstudy; however; remainedheuristic:MU \
-OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (75.22249pt too wide) in paragraph at lines 84--85
-\OML/cmm/m/it/10 RBMsuppliesadifferentiableestimatorbasedonweightdynamics; thef
-irstsuchmechanismreleasedpublicly:$ 
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...astive-divergence schemes achieve FID\,≈
-                                                  \,10 on MNIST but rely on ...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.88 ...not provide associative memory [taniguchi_
-                                                  2023_end]. MU-SH-RBM inste...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.89 
-     
 [2] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
-Underfull \hbox (badness 2689) in paragraph at lines 128--129
+Underfull \hbox (badness 2689) in paragraph at lines 136--137
 \T1/ptm/m/n/10 (+20) The re-leased code com-prises four files: \T1/pcr/m/n/10 s
 pectral_conv.py\T1/ptm/m/n/10 (+20) , \T1/pcr/m/n/10 unitary_param.py\T1/ptm/m/
 n/10 (+20) ,
-[3]
-Underfull \hbox (badness 1259) in paragraph at lines 168--169
-[]\T1/ptm/b/n/10 (+20) Reproducibility \T1/ptm/m/n/10 (+20) Ex-am-ple com-mand:
- \T1/pcr/m/n/10 python bench.py experiment=gen_quality
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...ibbs steps. Baseline figures are FID\,≈
-                                                  \,18.9 at $k=25$ for Conv-...
-
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...,18.9 at $k=25$ for Conv-RBM and FID\,≈
-                                                  \,21.6 at $k=1$ for HA-RBM...
-
-[4] [5 <./images/training_curves.pdf> <./images/energy_distribution.pdf>]
+[3] [4]
+Underfull \vbox (badness 10000) has occurred while \output is active [5 <./imag
+es/training_curves.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active [6 <./imag
-es/generated_samples.pdf> <./images/denoising_comparison.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.231 ...amplers for energy-based models [bachtis_
-                                                  2024_cascade, decelle_2021...
+es/energy_distribution.pdf> <./images/generated_samples.pdf>]
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.232 
-      
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 7 undefined on 
+input line 243.
+
+
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 7 undefined
+ on input line 243.
+
 
 Package natbib Warning: Citation `airas2025' on page 7 undefined on input line 
-233.
+245.
 
 No file paper.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-[7 <./images/loss_curve.pdf>] (./paper.aux)
+[7 <./images/denoising_comparison.pdf> <./images/loss_curve.pdf>] (./paper.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -644,12 +376,58 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (7 pages, 439990 bytes).
+Output written on paper.pdf (7 pages, 433739 bytes).
 Transcript written on paper.log.
 This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 The top-level auxiliary file: paper.aux
 The style file: iclr2024_conference.bst
 Database file #1: references.bib
+Repeated entry---line 42 of file references.bib
+ : @article{bachtis_2024_cascade
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 103 of file references.bib
+ : @article{decelle_2021_equilibrium
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 160 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 184 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 208 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 232 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 256 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 280 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 304 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 328 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 352 of file references.bib
+ : @article{smart_2021_the
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in taniguchi_2023_end
+(There were 11 error messages)
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -919,363 +697,71 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
 
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 1 undefined
+ on input line 63.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 ... that needs twenty-five steps for FID\,≈
-                                                  \,19—yet still achieves ...
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.55 ...ood estimates and sample quality [decelle_
-                                                  2021_equilibrium]. Despite...
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 1 undefined on 
+input line 65.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56 
-     
-
-Underfull \hbox (badness 1902) in paragraph at lines 55--56
-\T1/ptm/m/n/10 (+20) based learn-ing, yet three long-standing lim-i-ta-tions cu
-rb their rel-e-vance to con-tem-po-rary
-
-Overfull \hbox (127.53072pt too wide) in paragraph at lines 55--56
-\T1/ptm/m/n/10 (-20) [decelle$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 quilibriu
-m\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Despiteyearsofresearchthereisstillnopublicl
-yavailableRBMthatadapts$\T1/ptm/m/n/10 (-20) k$\OML/cmm/m/it/10 fromfirstprinci
-ples:$ 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 ...hted by recent spectral analyses [bachtis_
-                                                  2024_cascade]. By embeddin...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 
-     
-
-Underfull \hbox (badness 2469) in paragraph at lines 57--58
-[]\T1/ptm/m/n/10 (+20) We pro-pose the Multi-Scale Uni-tary Spec-tral Hop-field
- RBM (MU-SH-RBM), an ar-chi-
-
-Underfull \hbox (badness 3895) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) tec-ture that closes all three gaps on the canon-i-cal MNI
-ST bench-mark while adding
-
-Underfull \hbox (badness 3907) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) only min-i-mal code over-head. Our core hy-poth-e-sis is t
-hat an un-dec-i-mated wavelet
-
-Underfull \hbox (badness 1424) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) packet ba-sis can re-tain the ex-act spec-tral tricks of b
-lock-circulant RBMs while pre-serv-
-
-Underfull \hbox (badness 4254) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) ing neigh-bour-hood in-for-ma-tion, and that main-tain-ing
- ex-act uni-tary weight con-straints
-
-Underfull \hbox (badness 2980) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) averts the cas-cade of singular-value ex-plo-sions high-li
-ghted by re-cent spec-tral anal-y-ses
-
-Overfull \hbox (350.24254pt too wide) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (-20) [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT
-1/cmr/m/n/10 ]\OML/cmm/m/it/10 :ByembeddingalightweightattentionheadinsidetheHa
-miltonianandtrackingcriticalitythroughtheinstantaneousgrowthrateofthespectralno
-rm; MU \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (111.78207pt too wide) in paragraph at lines 57--58
-\OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMrecoversone \OMS/c
-msy/m/n/10 ^^@ \OML/cmm/m/it/10 passHopfieldrecallandanadaptiveGibbsbudgetwitho
-utcompromisinghardwareefficiency:$ 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 ... break down as learning proceeds [decelle_
-                                                  2021_equilibrium].
 
-! LaTeX Error: Command \end{itemize} invalid in math mode.
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 1 undefined
+ on input line 71.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 \end{itemize}
-                  
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 ...nd bound singular values exactly [bachtis_
-                                                  2024_cascade].
 
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item
-               \textbf{Differentiable Criticality Tracker} Online schedule $...
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 2 undefined on 
+input line 77.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item \textbf
-                      {Differentiable Criticality Tracker} Online schedule $...
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 2 undefined on 
+input line 88.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item \textbf
-                      {Differentiable Criticality Tracker} Online schedule $...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 ...lity Tracker} Online schedule $k(t)=\lceil
-                                                  \alpha\,\tau(t)\rceil$ tra...
+Package natbib Warning: Citation `smart_2021_the' on page 2 undefined on input 
+line 90.
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 69--71
-[]\T1/ptm/b/n/10 (+20) Strict Complex-Unitary Train-ing \T1/ptm/m/n/10 (+20) Ho
-use-holder stacks with Riemannian-Adam
-
-Underfull \hbox (badness 3009) in paragraph at lines 69--71
-\T1/ptm/m/n/10 (+20) dou-ble ca-pac-ity over real-orthogonal RBMs and bound sin
--gu-lar val-ues ex-actly
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-\T1/ptm/m/n/10 (+20) [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT
-1/cmr/m/n/10 ]\OML/cmm/m/it/10 :[]Onlineschedule$\T1/ptm/m/n/10 (+20) k(t)=$\OM
-S/cmsy/m/n/10 d\OML/cmm/m/it/10  ^^\\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cm
-r/m/n/10 )\OMS/cmsy/m/n/10 e$
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 ...ions therefore blur fine details [bachtis_
-                                                  2024_cascade]. MU-SH-RBM p...
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 2 undefined on 
+input line 90.
 
 
-! LaTeX Error: \mathcal allowed only in math mode.
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 2 undefined
+ on input line 92.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...al alignment without sacrificing $\mathcal
-                                                   O(N\log N)$ complexity.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 ...ment without sacrificing $\mathcal O(N\log
-                                                   N)$ complexity.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/it/10 (+20) Spectral RBMs \T1/ptm/m/n/10 (+20) Block-circulant con-vo
--lu-tional RBMs di-ag-o-nalise con-vo-lu-tion ker-
+Package natbib Warning: Citation `taniguchi_2023_end' on page 2 undefined on in
+put line 96.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/n/10 (+20) nels with the FFT, en-abling ex-act positive-phase sam-pli
-ng but dis-card-ing lo-cal-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/n/10 (+20) ity; one-step re-con-struc-tions there-fore blur fine de-t
-ails [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT1/cmr/m/n/10 ]\O
-ML/cmm/m/it/10 :MU \OMS/cmsy/m/n/10 ^^@
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMpreservesdiagonali
-sationyetconfinesittoundecimatedwaveletsub \OMS/cmsy/m/n/10 ^^@
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...jections onto the Stiefel manifold [smart_
-                                                  2021_the]. In practice the...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...imisation, empirically stabilising $\sigma
-                                                  _{\max}$ across the cascad...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...of phase transitions reported in [bachtis_
-                                                  2024_cascade].
-! Missing $ inserted.
-<inserted text> 
-                $
-l.83 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-[]\T1/ptm/m/it/10 (+20) Hopfield^^URBM Con-nec-tions \T1/ptm/m/n/10 (+20) Ex-ac
-t map-pings be-tween Hop-field net-works and RBMs
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\T1/ptm/m/n/10 (+20) mo-ti-vate or-thog-o-nal weight ini-tialis-ers and oc-ca-s
-ional pro-jec-tions onto the Stiefel
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\T1/ptm/m/n/10 (+20) man-i-fold [smart$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 
-he\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Inpracticetheconstraintissoonviolated; era
-singthefixed \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (220.85054pt too wide) in paragraph at lines 82--83
-\OML/cmm/m/it/10 pointguarantee:MU \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 SH \OM
-S/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMmaintainsunitaryconstraintsthroughouttrai
-ningviaRiemannianoptimisation; empiricallystabilising$$^^[[]$
-! Missing $ inserted.
-<inserted text> 
-                $
-l.84 ...d calling for adaptive schedules [decelle_
-                                                  2021_equilibrium]. Their s...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.85 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-[]\T1/ptm/m/it/10 (+20) Mixing-Time Adap-ta-tion \T1/ptm/m/n/10 (+20) De-cellee
-tal. quan-ti-fied the widen-ing gap be-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) tween cho-sen $\OML/cmm/m/it/10 k$ \T1/ptm/m/n/10 (+20) an
-d true mix-ing time dur-ing train-ing, iso-lat-ing two
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) regimes^^Vequilibrium and out-of-equilibrium^^Vand call-in
-g for adap-tive sched-ules
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) [decelle$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 quilibriu
-m\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Theirstudy; however; remainedheuristic:MU \
-OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (75.22249pt too wide) in paragraph at lines 84--85
-\OML/cmm/m/it/10 RBMsuppliesadifferentiableestimatorbasedonweightdynamics; thef
-irstsuchmechanismreleasedpublicly:$ 
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...astive-divergence schemes achieve FID\,≈
-                                                  \,10 on MNIST but rely on ...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.88 ...not provide associative memory [taniguchi_
-                                                  2023_end]. MU-SH-RBM inste...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.89 
-     
 [2] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
-Underfull \hbox (badness 2689) in paragraph at lines 128--129
+Underfull \hbox (badness 2689) in paragraph at lines 136--137
 \T1/ptm/m/n/10 (+20) The re-leased code com-prises four files: \T1/pcr/m/n/10 s
 pectral_conv.py\T1/ptm/m/n/10 (+20) , \T1/pcr/m/n/10 unitary_param.py\T1/ptm/m/
 n/10 (+20) ,
-[3]
-Underfull \hbox (badness 1259) in paragraph at lines 168--169
-[]\T1/ptm/b/n/10 (+20) Reproducibility \T1/ptm/m/n/10 (+20) Ex-am-ple com-mand:
- \T1/pcr/m/n/10 python bench.py experiment=gen_quality
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...ibbs steps. Baseline figures are FID\,≈
-                                                  \,18.9 at $k=25$ for Conv-...
-
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...,18.9 at $k=25$ for Conv-RBM and FID\,≈
-                                                  \,21.6 at $k=1$ for HA-RBM...
-
-[4] [5 <./images/training_curves.pdf> <./images/energy_distribution.pdf>]
+[3] [4]
+Underfull \vbox (badness 10000) has occurred while \output is active [5 <./imag
+es/training_curves.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active [6 <./imag
-es/generated_samples.pdf> <./images/denoising_comparison.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.231 ...amplers for energy-based models [bachtis_
-                                                  2024_cascade, decelle_2021...
+es/energy_distribution.pdf> <./images/generated_samples.pdf>]
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.232 
-      
+Package natbib Warning: Citation `bachtis_2024_cascade' on page 7 undefined on 
+input line 243.
+
+
+Package natbib Warning: Citation `decelle_2021_equilibrium' on page 7 undefined
+ on input line 243.
+
 
 Package natbib Warning: Citation `airas2025' on page 7 undefined on input line 
-233.
+245.
 
-(./paper.bbl)
+(./paper.bbl [7 <./images/denoising_comparison.pdf> <./images/loss_curve.pdf>])
 
 Package natbib Warning: There were undefined citations.
 
-[7 <./images/loss_curve.pdf>] (./paper.aux
+[8] (./paper.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -1293,7 +779,7 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (7 pages, 441719 bytes).
+Output written on paper.pdf (8 pages, 439395 bytes).
 Transcript written on paper.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -1563,356 +1049,20 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg)
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 ... that needs twenty-five steps for FID\,≈
-                                                  \,19—yet still achieves ...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.55 ...ood estimates and sample quality [decelle_
-                                                  2021_equilibrium]. Despite...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.56 
-     
-
-Underfull \hbox (badness 1902) in paragraph at lines 55--56
-\T1/ptm/m/n/10 (+20) based learn-ing, yet three long-standing lim-i-ta-tions cu
-rb their rel-e-vance to con-tem-po-rary
-
-Overfull \hbox (127.53072pt too wide) in paragraph at lines 55--56
-\T1/ptm/m/n/10 (-20) [decelle$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 quilibriu
-m\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Despiteyearsofresearchthereisstillnopublicl
-yavailableRBMthatadapts$\T1/ptm/m/n/10 (-20) k$\OML/cmm/m/it/10 fromfirstprinci
-ples:$ 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57 ...hted by recent spectral analyses [bachtis_
-                                                  2024_cascade]. By embeddin...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.58 
-     
-
-Underfull \hbox (badness 2469) in paragraph at lines 57--58
-[]\T1/ptm/m/n/10 (+20) We pro-pose the Multi-Scale Uni-tary Spec-tral Hop-field
- RBM (MU-SH-RBM), an ar-chi-
-
-Underfull \hbox (badness 3895) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) tec-ture that closes all three gaps on the canon-i-cal MNI
-ST bench-mark while adding
-
-Underfull \hbox (badness 3907) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) only min-i-mal code over-head. Our core hy-poth-e-sis is t
-hat an un-dec-i-mated wavelet
-
-Underfull \hbox (badness 1424) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) packet ba-sis can re-tain the ex-act spec-tral tricks of b
-lock-circulant RBMs while pre-serv-
-
-Underfull \hbox (badness 4254) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) ing neigh-bour-hood in-for-ma-tion, and that main-tain-ing
- ex-act uni-tary weight con-straints
-
-Underfull \hbox (badness 2980) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (+20) averts the cas-cade of singular-value ex-plo-sions high-li
-ghted by re-cent spec-tral anal-y-ses
-
-Overfull \hbox (350.24254pt too wide) in paragraph at lines 57--58
-\T1/ptm/m/n/10 (-20) [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT
-1/cmr/m/n/10 ]\OML/cmm/m/it/10 :ByembeddingalightweightattentionheadinsidetheHa
-miltonianandtrackingcriticalitythroughtheinstantaneousgrowthrateofthespectralno
-rm; MU \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (111.78207pt too wide) in paragraph at lines 57--58
-\OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMrecoversone \OMS/c
-msy/m/n/10 ^^@ \OML/cmm/m/it/10 passHopfieldrecallandanadaptiveGibbsbudgetwitho
-utcompromisinghardwareefficiency:$ 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 ... break down as learning proceeds [decelle_
-                                                  2021_equilibrium].
-
-! LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{itemize}
-                  
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 \end{itemize}
-                  
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.69 ...nd bound singular values exactly [bachtis_
-                                                  2024_cascade].
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item
-               \textbf{Differentiable Criticality Tracker} Online schedule $...
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item \textbf
-                      {Differentiable Criticality Tracker} Online schedule $...
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70     \item \textbf
-                      {Differentiable Criticality Tracker} Online schedule $...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.70 ...lity Tracker} Online schedule $k(t)=\lceil
-                                                  \alpha\,\tau(t)\rceil$ tra...
-
-
-Underfull \hbox (badness 5878) in paragraph at lines 69--71
-[]\T1/ptm/b/n/10 (+20) Strict Complex-Unitary Train-ing \T1/ptm/m/n/10 (+20) Ho
-use-holder stacks with Riemannian-Adam
-
-Underfull \hbox (badness 3009) in paragraph at lines 69--71
-\T1/ptm/m/n/10 (+20) dou-ble ca-pac-ity over real-orthogonal RBMs and bound sin
--gu-lar val-ues ex-actly
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-\T1/ptm/m/n/10 (+20) [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT
-1/cmr/m/n/10 ]\OML/cmm/m/it/10 :[]Onlineschedule$\T1/ptm/m/n/10 (+20) k(t)=$\OM
-S/cmsy/m/n/10 d\OML/cmm/m/it/10  ^^\\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cm
-r/m/n/10 )\OMS/cmsy/m/n/10 e$
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 ...ions therefore blur fine details [bachtis_
-                                                  2024_cascade]. MU-SH-RBM p...
-
-
-! LaTeX Error: \mathcal allowed only in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...al alignment without sacrificing $\mathcal
-                                                   O(N\log N)$ complexity.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80 ...ment without sacrificing $\mathcal O(N\log
-                                                   N)$ complexity.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/it/10 (+20) Spectral RBMs \T1/ptm/m/n/10 (+20) Block-circulant con-vo
--lu-tional RBMs di-ag-o-nalise con-vo-lu-tion ker-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/n/10 (+20) nels with the FFT, en-abling ex-act positive-phase sam-pli
-ng but dis-card-ing lo-cal-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\T1/ptm/m/n/10 (+20) ity; one-step re-con-struc-tions there-fore blur fine de-t
-ails [bachtis$[]\OT1/cmr/m/n/10 024[]\OML/cmm/m/it/10 ascade\OT1/cmr/m/n/10 ]\O
-ML/cmm/m/it/10 :MU \OMS/cmsy/m/n/10 ^^@
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-\OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMpreservesdiagonali
-sationyetconfinesittoundecimatedwaveletsub \OMS/cmsy/m/n/10 ^^@
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...jections onto the Stiefel manifold [smart_
-                                                  2021_the]. In practice the...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...imisation, empirically stabilising $\sigma
-                                                  _{\max}$ across the cascad...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 ...of phase transitions reported in [bachtis_
-                                                  2024_cascade].
-! Missing $ inserted.
-<inserted text> 
-                $
-l.83 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-[]\T1/ptm/m/it/10 (+20) Hopfield^^URBM Con-nec-tions \T1/ptm/m/n/10 (+20) Ex-ac
-t map-pings be-tween Hop-field net-works and RBMs
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\T1/ptm/m/n/10 (+20) mo-ti-vate or-thog-o-nal weight ini-tialis-ers and oc-ca-s
-ional pro-jec-tions onto the Stiefel
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\T1/ptm/m/n/10 (+20) man-i-fold [smart$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 
-he\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Inpracticetheconstraintissoonviolated; era
-singthefixed \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (220.85054pt too wide) in paragraph at lines 82--83
-\OML/cmm/m/it/10 pointguarantee:MU \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 SH \OM
-S/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 RBMmaintainsunitaryconstraintsthroughouttrai
-ningviaRiemannianoptimisation; empiricallystabilising$$^^[[]$
-! Missing $ inserted.
-<inserted text> 
-                $
-l.84 ...d calling for adaptive schedules [decelle_
-                                                  2021_equilibrium]. Their s...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.85 
-     
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-[]\T1/ptm/m/it/10 (+20) Mixing-Time Adap-ta-tion \T1/ptm/m/n/10 (+20) De-cellee
-tal. quan-ti-fied the widen-ing gap be-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) tween cho-sen $\OML/cmm/m/it/10 k$ \T1/ptm/m/n/10 (+20) an
-d true mix-ing time dur-ing train-ing, iso-lat-ing two
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) regimes^^Vequilibrium and out-of-equilibrium^^Vand call-in
-g for adap-tive sched-ules
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-\T1/ptm/m/n/10 (+20) [decelle$[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 quilibriu
-m\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :Theirstudy; however; remainedheuristic:MU \
-OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 SH \OMS/cmsy/m/n/10 ^^@
-
-Overfull \hbox (75.22249pt too wide) in paragraph at lines 84--85
-\OML/cmm/m/it/10 RBMsuppliesadifferentiableestimatorbasedonweightdynamics; thef
-irstsuchmechanismreleasedpublicly:$ 
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 ...astive-divergence schemes achieve FID\,≈
-                                                  \,10 on MNIST but rely on ...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.88 ...not provide associative memory [taniguchi_
-                                                  2023_end]. MU-SH-RBM inste...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.89 
-     
-[2] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
-Underfull \hbox (badness 2689) in paragraph at lines 128--129
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/var/lib/texmf/fo
+nts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/base/8r.enc}] [2] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 2689) in paragraph at lines 136--137
 \T1/ptm/m/n/10 (+20) The re-leased code com-prises four files: \T1/pcr/m/n/10 s
 pectral_conv.py\T1/ptm/m/n/10 (+20) , \T1/pcr/m/n/10 unitary_param.py\T1/ptm/m/
 n/10 (+20) ,
-[3]
-Underfull \hbox (badness 1259) in paragraph at lines 168--169
-[]\T1/ptm/b/n/10 (+20) Reproducibility \T1/ptm/m/n/10 (+20) Ex-am-ple com-mand:
- \T1/pcr/m/n/10 python bench.py experiment=gen_quality
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...ibbs steps. Baseline figures are FID\,≈
-                                                  \,18.9 at $k=25$ for Conv-...
-
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.174 ...,18.9 at $k=25$ for Conv-RBM and FID\,≈
-                                                  \,21.6 at $k=1$ for HA-RBM...
-
-[4] [5 <./images/training_curves.pdf> <./images/energy_distribution.pdf>]
+[3] [4]
+Underfull \vbox (badness 10000) has occurred while \output is active [5 <./imag
+es/training_curves.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active [6 <./imag
-es/generated_samples.pdf> <./images/denoising_comparison.pdf>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.231 ...amplers for energy-based models [bachtis_
-                                                  2024_cascade, decelle_2021...
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.232 
-      
-(./paper.bbl) [7 <./images/loss_curve.pdf>] (./paper.aux) )
+es/energy_distribution.pdf> <./images/generated_samples.pdf>] (./paper.bbl
+[7 <./images/denoising_comparison.pdf> <./images/loss_curve.pdf>]) [8]
+(./paper.aux) )
 (see the transcript file for additional information)</usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -1925,5 +1075,5 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (7 pages, 441018 bytes).
+Output written on paper.pdf (8 pages, 440283 bytes).
 Transcript written on paper.log.
