@@ -5,3 +5,391 @@
   publisher = {GitHub},
   url       = {https://github.com/airas-org/airas}
 }
+
+% ===========================================
+% REQUIRED CITATIONS
+% These papers must be cited in the manuscript
+% ===========================================
+
+@article{bachtis_2024_cascade,
+ abstract = {In this paper, we investigate the feature encoding process in a prototypical
+energy-based generative model, the Restricted Boltzmann Machine (RBM). We start
+with an analytical investigation using simplified architectures and data
+structures, and end with numerical analysis of real trainings on real datasets.
+Our study tracks the evolution of the model's weight matrix through its
+singular value decomposition, revealing a series of phase transitions
+associated to a progressive learning of the principal modes of the empirical
+probability distribution. The model first learns the center of mass of the
+modes and then progressively resolve all modes through a cascade of phase
+transitions. We first describe this process analytically in a controlled setup
+that allows us to study analytically the training dynamics. We then validate
+our theoretical results by training the Bernoulli-Bernoulli RBM on real data
+sets. By using data sets of increasing dimension, we show that learning indeed
+leads to sharp phase transitions in the high-dimensional limit. Moreover, we
+propose and test a mean-field finite-size scaling hypothesis. This shows that
+the first phase transition is in the same universality class of the one we
+studied analytically, and which is reminiscent of the mean-field
+paramagnetic-to-ferromagnetic phase transition.},
+ arxiv_url = {https://arxiv.org/pdf/2405.14689v4.pdf},
+ author = {Dimitrios Bachtis and Giulio Biroli and Aurélien Decelle and Beatriz Seoane},
+ github_url = {https://github.com/AurelienDecelle/TorchRBM},
+ journal = {Advances in Neural Information Processing Systems 37 (NeurIPS
+  2024)},
+ title = {Cascade of phase transitions in the training of energy-based models},
+ year = {2024}
+}
+
+@article{bachtis_2024_cascade,
+ abstract = {In this paper, we investigate the feature encoding process in a prototypical
+energy-based generative model, the Restricted Boltzmann Machine (RBM). We start
+with an analytical investigation using simplified architectures and data
+structures, and end with numerical analysis of real trainings on real datasets.
+Our study tracks the evolution of the model's weight matrix through its
+singular value decomposition, revealing a series of phase transitions
+associated to a progressive learning of the principal modes of the empirical
+probability distribution. The model first learns the center of mass of the
+modes and then progressively resolve all modes through a cascade of phase
+transitions. We first describe this process analytically in a controlled setup
+that allows us to study analytically the training dynamics. We then validate
+our theoretical results by training the Bernoulli-Bernoulli RBM on real data
+sets. By using data sets of increasing dimension, we show that learning indeed
+leads to sharp phase transitions in the high-dimensional limit. Moreover, we
+propose and test a mean-field finite-size scaling hypothesis. This shows that
+the first phase transition is in the same universality class of the one we
+studied analytically, and which is reminiscent of the mean-field
+paramagnetic-to-ferromagnetic phase transition.},
+ arxiv_url = {https://arxiv.org/pdf/2405.14689v4.pdf},
+ author = {Dimitrios Bachtis and Giulio Biroli and Aurélien Decelle and Beatriz Seoane},
+ github_url = {https://github.com/AurelienDecelle/TorchRBM},
+ journal = {Advances in Neural Information Processing Systems 37 (NeurIPS
+  2024)},
+ title = {Cascade of phase transitions in the training of energy-based models},
+ year = {2024}
+}
+
+@article{decelle_2021_equilibrium,
+ abstract = {Training Restricted Boltzmann Machines (RBMs) has been challenging for a long
+time due to the difficulty of computing precisely the log-likelihood gradient.
+Over the past decades, many works have proposed more or less successful
+training recipes but without studying the crucial quantity of the problem: the
+mixing time, i.e. the number of Monte Carlo iterations needed to sample new
+configurations from a model. In this work, we show that this mixing time plays
+a crucial role in the dynamics and stability of the trained model, and that
+RBMs operate in two well-defined regimes, namely equilibrium and
+out-of-equilibrium, depending on the interplay between this mixing time of the
+model and the number of steps, $k$, used to approximate the gradient. We
+further show empirically that this mixing time increases with the learning,
+which often implies a transition from one regime to another as soon as $k$
+becomes smaller than this time. In particular, we show that using the popular
+$k$ (persistent) contrastive divergence approaches, with $k$ small, the
+dynamics of the learned model are extremely slow and often dominated by strong
+out-of-equilibrium effects. On the contrary, RBMs trained in equilibrium
+display faster dynamics, and a smooth convergence to dataset-like
+configurations during the sampling. Finally we discuss how to exploit in
+practice both regimes depending on the task one aims to fulfill: (i) short $k$
+can be used to generate convincing samples in short learning times, (ii) large
+$k$ (or increasingly large) is needed to learn the correct equilibrium
+distribution of the RBM. Finally, the existence of these two operational
+regimes seems to be a general property of energy based models trained via
+likelihood maximization.},
+ arxiv_url = {https://arxiv.org/pdf/2105.13889v4.pdf},
+ author = {Aurélien Decelle and Cyril Furtlehner and Beatriz Seoane},
+ doi = {10.1088/1742-5468/ac98a7},
+ journal = {NeurIps 2021},
+ title = {Equilibrium and non-Equilibrium regimes in the learning of Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{decelle_2021_equilibrium,
+ abstract = {Training Restricted Boltzmann Machines (RBMs) has been challenging for a long
+time due to the difficulty of computing precisely the log-likelihood gradient.
+Over the past decades, many works have proposed more or less successful
+training recipes but without studying the crucial quantity of the problem: the
+mixing time, i.e. the number of Monte Carlo iterations needed to sample new
+configurations from a model. In this work, we show that this mixing time plays
+a crucial role in the dynamics and stability of the trained model, and that
+RBMs operate in two well-defined regimes, namely equilibrium and
+out-of-equilibrium, depending on the interplay between this mixing time of the
+model and the number of steps, $k$, used to approximate the gradient. We
+further show empirically that this mixing time increases with the learning,
+which often implies a transition from one regime to another as soon as $k$
+becomes smaller than this time. In particular, we show that using the popular
+$k$ (persistent) contrastive divergence approaches, with $k$ small, the
+dynamics of the learned model are extremely slow and often dominated by strong
+out-of-equilibrium effects. On the contrary, RBMs trained in equilibrium
+display faster dynamics, and a smooth convergence to dataset-like
+configurations during the sampling. Finally we discuss how to exploit in
+practice both regimes depending on the task one aims to fulfill: (i) short $k$
+can be used to generate convincing samples in short learning times, (ii) large
+$k$ (or increasingly large) is needed to learn the correct equilibrium
+distribution of the RBM. Finally, the existence of these two operational
+regimes seems to be a general property of energy based models trained via
+likelihood maximization.},
+ arxiv_url = {https://arxiv.org/pdf/2105.13889v4.pdf},
+ author = {Aurélien Decelle and Cyril Furtlehner and Beatriz Seoane},
+ doi = {10.1088/1742-5468/ac98a7},
+ journal = {NeurIps 2021},
+ title = {Equilibrium and non-Equilibrium regimes in the learning of Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{smart_2021_the,
+ abstract = {Hopfield networks (HNs) and Restricted Boltzmann Machines (RBMs) are two
+important models at the interface of statistical physics, machine learning, and
+neuroscience. Recently, there has been interest in the relationship between HNs
+and RBMs, due to their similarity under the statistical mechanics formalism. An
+exact mapping between HNs and RBMs has been previously noted for the special
+case of orthogonal (uncorrelated) encoded patterns. We present here an exact
+mapping in the case of correlated pattern HNs, which are more broadly
+applicable to existing datasets. Specifically, we show that any HN with $N$
+binary variables and $p<N$ arbitrary binary patterns can be transformed into an
+RBM with $N$ binary visible variables and $p$ gaussian hidden variables. We
+outline the conditions under which the reverse mapping exists, and conduct
+experiments on the MNIST dataset which suggest the mapping provides a useful
+initialization to the RBM weights. We discuss extensions, the potential
+importance of this correspondence for the training of RBMs, and for
+understanding the performance of deep architectures which utilize RBMs.},
+ arxiv_url = {https://arxiv.org/pdf/2101.11744v2.pdf},
+ author = {Matthew Smart and Anton Zilman},
+ journal = {The 9th International Conference on Learning Representations (ICLR
+  2021)},
+ title = {On the mapping between Hopfield networks and Restricted Boltzmann Machines},
+ year = {2021}
+}
+
+@article{taniguchi_2023_end,
+ abstract = {We address the problem of biased gradient estimation in deep Boltzmann
+machines (DBMs). The existing method to obtain an unbiased estimator uses a
+maximal coupling based on a Gibbs sampler, but when the state is
+high-dimensional, it takes a long time to converge. In this study, we propose
+to use a coupling based on the Metropolis-Hastings (MH) and to initialize the
+state around a local mode of the target distribution. Because of the propensity
+of MH to reject proposals, the coupling tends to converge in only one step with
+a high probability, leading to high efficiency. We find that our method allows
+DBMs to be trained in an end-to-end fashion without greedy pretraining. We also
+propose some practical techniques to further improve the performance of DBMs.
+We empirically demonstrate that our training algorithm enables DBMs to show
+comparable generative performance to other deep generative models, achieving
+the FID score of 10.33 for MNIST.},
+ arxiv_url = {https://arxiv.org/pdf/2305.19684v1.pdf},
+ author = {Shohei Taniguchi and Masahiro Suzuki and Yusuke Iwasawa and Yutaka Matsuo},
+ github_url = {https://github.com/iShohei220/unbiased_dbm},
+ title = {End-to-end Training of Deep Boltzmann Machines by Unbiased Contrastive Divergence with Local Mode Initialization},
+ year = {2023}
+}
