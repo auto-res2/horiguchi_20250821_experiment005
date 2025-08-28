@@ -6,5 +6,52 @@
     "RBM digit generation",
     "MNIST classification RBM",
     "generative RBM MNIST"
+  ],
+  "research_study_list": [
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "Equilibrium and non-Equilibrium regimes in the learning of Restricted Boltzmann Machines"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "Equilibrium and non-Equilibrium regimes in the learning of Restricted Boltzmann Machines"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "Cascade of phase transitions in the training of energy-based models"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "End-to-end Training of Deep Boltzmann Machines by Unbiased Contrastive Divergence with Local Mode Initialization"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "On the mapping between Hopfield networks and Restricted Boltzmann Machines"
+    },
+    {
+      "title": "Cascade of phase transitions in the training of energy-based models"
+    }
   ]
 }
