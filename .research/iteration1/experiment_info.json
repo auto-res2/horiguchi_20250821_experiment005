@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-28T07:46:06.329398",
+  "timestamp": "2025-08-28T07:54:47.881456",
   "config": {
     "dataset": "mnist",
     "data_dir": "./data",
@@ -33,10 +33,14 @@
     "generate_plots": true
   },
   "device_info": {
-    "device": "cpu",
-    "cuda_available": false
+    "device": "cuda",
+    "cuda_available": true,
+    "gpu_name": "Tesla T4",
+    "gpu_memory_total": 16705454080,
+    "gpu_memory_allocated": 0,
+    "gpu_memory_reserved": 0
   },
-  "git_commit": "f3f58693e2735f0fa0e1218d4916d896745b7217",
-  "python_version": "3.12.7 (main, Nov 26 2024, 10:14:27) [GCC 11.4.0]",
+  "git_commit": "53421b155111864684866296fee1395516c9b451",
+  "python_version": "3.11.13 (main, Jun  4 2025, 04:12:12) [GCC 13.3.0]",
   "pytorch_version": "2.8.0+cu128"
 }
